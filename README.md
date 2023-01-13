@@ -4,7 +4,7 @@
 
 🟣 13.01.2023
 
-🟣 Link: https://precious-swan-807842.netlify.app
+🟣 Link: https://verdant-caramel-581eef.netlify.app
 
 🟣 Summary: Tribute page essay by Rosa Linn
 ![image](https://user-images.githubusercontent.com/122406455/212213399-31cffe0f-8f16-4fe3-8851-6404bdec5c2b.png)
