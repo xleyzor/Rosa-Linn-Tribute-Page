@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #141728;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* LEFT-SIDE START */
+
+.left-side {
+    height: 100vh;
+    width: 30%;
+    border-right: 2px solid #ccc;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.left-side h1 {
+    position: absolute;
+    transform: rotate(-90deg);
+    letter-spacing: 3px;
+    font-size: 90px;
+    white-space: nowrap;
+    /* white-space: nowrap; ==> alt satıra geçmeyi engelleme */
+    color: #fff;
+    user-select: none;
+}
+
+.left-side span {
+    color: rgb(153, 24, 131);
+}
+
+
+/* HERO START */
+
+.hero {
+    flex: 7;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .rosa-linn {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about {
+    flex: 2;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about .title {
+    color: rgb(153, 24, 131);
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.about p {
+    color: #fff;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.about .eurovision {
+    color: #da2836;
+    text-decoration: none;
+}
+
+.about .snap {
+    color: #FF9E1B;
+    text-decoration: none;
+}
+
+.about .Nvak {
+    color: #1d37ca;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social .btn {
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.social a {
+    font-size: 17px;
+    font-weight: 500;
+    user-select: none;
+    /* user-select: none; ==> yazı seçmeyi kaldırır */
+}
+
+.social .spotify {
+    color: #81b71a;
+    border: 1px solid #81b71a;
+    width: 140px;
+}
+
+.social .spotify:hover {
+    color: #000;
+    background-color: #81b71a;
+    border: 1px solid #000;
+    transform: scale(1.1);
+    transition: ease .3s;
+}
+
+.social .twitter {
+    color: #00acee;
+    border: 1px solid #00acee;
+    width: 140px;
+}
+
+.social .twitter:hover {
+    color: #000;
+    background-color: #00acee;
+    border: 1px solid #000;
+    transform: scale(1.1);
+    transition: ease .3s;
+}
+
+.social .youtube {
+    color: #c4302b;
+    border: 1px solid #c4302b;
+    width: 140px;
+}
+
+.social .youtube:hover {
+    color: #000;
+    background-color: #c4302b;
+    border: 1px solid #000;
+    transform: scale(1.1);
+    transition: ease .3s;
+}
+
+.social .instagram {
+    color: #E1306C;
+    border: 1px solid #E1306C;
+    width: 140px;
+}
+
+.social .instagram:hover {
+    color: #000;
+    background-color: #E1306C;
+    border: 1px solid #000;
+    transform: scale(1.1);
+    transition: ease .3s;
+}
